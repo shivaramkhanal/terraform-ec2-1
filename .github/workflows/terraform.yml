@@ -83,12 +83,6 @@ jobs:
        cd "east/how to create ec2 instance/"
        terraform init
 
-    # Checks that all Terraform configuration files adhere to a canonical format
-    - name: Terraform Format
-      run: |
-       cd "east/how to create ec2 instance/" 
-       terraform fmt -check
-
     # Generates an execution plan for Terraform
     - name: Terraform Plan
       run: |
