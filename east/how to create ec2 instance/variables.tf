@@ -8,11 +8,11 @@ variable "name" {
 }
 
 variable "security_groups" {
-  default = []
+  default = ["sg-017011d5ea42dde9b"]
 }
 
 variable "subnets" {
-  default = "subnet-64e7ac0c"
+  default = "subnet-10c8635d"
 }
 
 variable "availability_zones" {
@@ -24,11 +24,11 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "rupesh_vir"
+  default = "ashok2"
 }
 
 variable "vpc" {
-  default = "vpc-e5b89f8d"
+  default = "vpc-26e8dc5c"
 }
  
 
