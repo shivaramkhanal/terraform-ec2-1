@@ -7,9 +7,9 @@ variable "name" {
   default = "Instance1"
 }
 
-variable "security_groups" {
-  default = ["sg-017011d5ea42dde9b"]
-}
+#variable "security_groups" {
+ # default = ["sg-017011d5ea42dde9b"]
+#}
 
 variable "subnets" {
   default = "subnet-10c8635d"
