@@ -13,10 +13,11 @@ jobs:
          uses: actions/checkout@v2
        - name: 'Run Terrascan'
          run: |
+           set -x 
            git clone https://github.com/accurics/terrascan.git
            ls 
            pwd 
-           cp "east/how to create ec2 instance/*.tf" terrascan
+           cp "east/'how to create ec2 instance'/*.tf" terrascan
            cd terrascan
            make build 
            ./bin/terrascan
