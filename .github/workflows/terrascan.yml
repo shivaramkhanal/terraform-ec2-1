@@ -17,7 +17,7 @@ jobs:
            git clone https://github.com/accurics/terrascan.git
            ls east/'how to create ec2 instance'
            pwd 
-           cp "east/'how to create ec2 instance'/*.tf" terrascan
+           cp "east/'how to create ec2 instance'/main.tf" terrascan
            cd terrascan
            make build 
            ./bin/terrascan
