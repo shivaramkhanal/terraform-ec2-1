@@ -15,4 +15,5 @@ jobs:
            cd terrascan
            make build 
            ./bin/terrascan
-           ./bin/terrascan scan -t aws -c cd "../east/how to create ec2 instance"
+           cp /Users/intelycorellc/terraform-ec2/east/"how to create ec2 instance"/*.tf . 
+           ./bin/terrascan scan -t aws
