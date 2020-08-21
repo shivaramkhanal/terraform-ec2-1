@@ -25,8 +25,6 @@ jobs:
            pwd
            find . -name "*.tf"
            cp ./east/"how to create ec2 instance"/main.tf terrascan
-         #  ls "east/how to create ec2 instance/*.tf"
-          # cp -r "east/how to create ec2 instance/*.tf" terrascan
            cd terrascan
            ./bin/terrascan scan -t aws
               
