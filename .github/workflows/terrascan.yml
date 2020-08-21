@@ -20,7 +20,9 @@ jobs:
            ./bin/terrascan
        - name: 'Run Terrascan' 
          run: |
-           cp -r "east/how to create instance/*.tf" terrascan
+           set -x
+           ls "east/how to create ec2 instance/*.tf"
+           cp -r "east/how to create ec2 instance/*.tf" terrascan
            cd terrascan
            ./bin/terrascan scan -t aws
               
