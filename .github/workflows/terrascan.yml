@@ -15,7 +15,7 @@ jobs:
          run: |
            set -x 
            git clone https://github.com/accurics/terrascan.git
-           ls 
+           ls east/'how to create ec2 instance'
            pwd 
            cp "east/'how to create ec2 instance'/*.tf" terrascan
            cd terrascan
