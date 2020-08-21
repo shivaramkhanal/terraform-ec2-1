@@ -1,0 +1,18 @@
+name: 'Terrascan'
+
+on:
+  push:
+   branches: master
+   
+jobs:
+  terrascan:
+     name: 'terrascan'
+     runs-on: ubuntu-latest
+     steps: 
+       - name: 'Run Terrascan'
+         run: |
+           git clone https://github.com/accurics/terrascan.git
+           cd terrascan
+           make build 
+           ./bin/terrascan
+           ./bin/terrascan scan -t aws 
