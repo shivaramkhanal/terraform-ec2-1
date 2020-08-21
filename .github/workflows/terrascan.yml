@@ -22,9 +22,10 @@ jobs:
          run: |
            set -x
            ls
-           ls east
-           ls "east/how to create ec2 instance/*.tf"
-           cp -r "east/how to create ec2 instance/*.tf" terrascan
-           cd terrascan
-           ./bin/terrascan scan -t aws
+           pwd
+           find . -name "*.tf"
+         #  ls "east/how to create ec2 instance/*.tf"
+          # cp -r "east/how to create ec2 instance/*.tf" terrascan
+          # cd terrascan
+           #./bin/terrascan scan -t aws
               
