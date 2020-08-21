@@ -15,5 +15,5 @@ jobs:
            cd terrascan
            make build 
            ./bin/terrascan
-           cp ./east/"how to create ec2 instance"/*.tf . 
+           cp ../east/"how to create ec2 instance"/*.tf . 
            ./bin/terrascan scan -t aws
