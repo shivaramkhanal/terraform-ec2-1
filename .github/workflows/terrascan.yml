@@ -12,8 +12,9 @@ jobs:
        - name: 'Run Terrascan'
          run: |
            git clone https://github.com/accurics/terrascan.git
+           ls 
+           pwd 
            cd terrascan
            make build 
            ./bin/terrascan
-           cp ../east/"how to create ec2 instance"/*.tf . 
            ./bin/terrascan scan -t aws
