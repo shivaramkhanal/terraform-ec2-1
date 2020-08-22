@@ -81,13 +81,13 @@ jobs:
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
       run: |
-       cd "terraform-ec2/"
+       cd "/shivaramkhanal/terraform-ec2/"
        terraform init
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
       run: |
-       cd "terraform-ec2/"
+       cd "/shivaramkhanal/terraform-ec2/"
        terraform plan 
         
 
