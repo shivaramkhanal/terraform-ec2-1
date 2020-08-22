@@ -88,6 +88,11 @@ jobs:
     - name: Terraform Plan
       run: |
        cd "east/how to create ec2 instance/"
-       terraform plan 
+       terraform plan
+       
+     - name: Terraform apply
+       run:|
+         cd "east/how to create ec2 instance/"
+         terraform plan
         
 
