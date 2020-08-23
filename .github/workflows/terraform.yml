@@ -94,5 +94,6 @@ jobs:
       run: |
          cd "east/how to create ec2 instance/"
          terraform apply
+         "yes"
          
 
