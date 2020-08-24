@@ -1,19 +1,16 @@
+configuration file:
 provider "aws" {
-  region = "us-east-1"
-}
-
-resource "aws_instance" "web2" {
-  ami = "${var.ami_image}"
-  instance_type = "${var.instance_type}"
+ 
+  region   = "us-east-1"
+ }
+ 
+resource "aws_instance" "example" {
+ 
+  ami         = "ami-02354e95b39ca8dec"
+  instance_type = "t2.micro"
+ 
   tags {
-   
-  name = "shivaa"
-    
- }
-  
- }
-
-#resource "aws_iam_instance_profile" "test_profile" {  
-#name="profile"
-#role="admin"
-#}  
+ 
+  name = "TESTVM"
+ 
+  }
