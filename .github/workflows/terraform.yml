@@ -90,6 +90,10 @@ jobs:
        cd "east/how to create ec2 instance/"
        terraform plan
        
+     - name: Terraform apply 
+       run: |
+         cd "east/how to create ec2 instance/"
+         terraform apply
   
          
       # On push to master, build or change infrastructure according to Terraform configuration files
