@@ -12,6 +12,6 @@ resource "aws_instance" "web1" {
  }
 
 resource "aws_iam_instance_profile" "test_profile" {  
-name = "profile"  
+name = "profile" 
 role = "admin"
 }  
