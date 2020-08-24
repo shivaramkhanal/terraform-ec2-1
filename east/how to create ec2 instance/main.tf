@@ -11,7 +11,7 @@ resource "aws_instance" "web2" {
   iam_instance_profile = "${aws_iam_instance_profile.test_profile.name}"
  }
 
-resource "aws_iam_instance_profile" "test_profile" {  
-name="profile"
-role="admin"
-}  
+#resource "aws_iam_instance_profile" "test_profile" {  
+#name="profile"
+#role="admin"
+#}  
