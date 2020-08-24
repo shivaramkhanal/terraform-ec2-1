@@ -24,7 +24,7 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "shiva"
+  default = "cba"
 }
 
 variable "vpc" {
