@@ -12,5 +12,5 @@ resource "aws_instance" "web3" {
  }
 
 resource "aws_iam_instance_profile" "test_profile" {                                                    
-role = "admin"
+#role = "admin"
 }  
