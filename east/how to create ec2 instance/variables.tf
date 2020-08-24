@@ -1,5 +1,5 @@
 variable "ami_image"  {
-  default = "ami-b70554c8"
+  default = "ami-02354e95b39ca8dec"
 }
 
 variable "name" {
