@@ -27,7 +27,7 @@ variable "key_name" {
   default = "cba"
 }
 
-variable "vpc" {
+variable "vpc_id" {
   default = "vpc-8d4d9cf7"
 }
  
