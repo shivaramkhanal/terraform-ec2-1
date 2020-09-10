@@ -18,7 +18,7 @@ resource "aws_iam_instance_profile" "test_profile" {
 resource "aws_security_group" "securitygr" {
   name        = "security"
   description = "create security group"
-  vpc_id      = "default"
+  vpc_id      = var.vpc_id
   
 
   ingress {
