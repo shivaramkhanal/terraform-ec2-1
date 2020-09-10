@@ -16,8 +16,9 @@ resource "aws_iam_instance_profile" "test_profile" {
 }  
 
 resource "aws_security_group" "securitygr" {
-  name        = "security1"
+  name        = "security2"
   description = "create security group"
+  vpc_id      = var.vpc_id
   
   
 
