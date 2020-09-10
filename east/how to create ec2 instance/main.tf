@@ -16,7 +16,7 @@ resource "aws_iam_instance_profile" "test_profile" {
 }  
 
 resource "aws_security_group" "securitygr" {
-  name        = "security"
+  name        = "security1"
   description = "create security group"
   
   
