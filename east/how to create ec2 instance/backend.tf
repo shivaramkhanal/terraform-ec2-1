@@ -1,7 +1,8 @@
+
 terraform {
   backend "s3" {
-    bucket = "mybucket"
-    key    = "terraform/app/statetf"
+    bucket = "asokji"
+    key    = "appname/terraform/tf.state"
     region = "us-east-1"
   }
 }
