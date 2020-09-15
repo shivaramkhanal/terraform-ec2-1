@@ -88,6 +88,9 @@ jobs:
        cd "east/how to create ec2 instance/"
        terraform init
        
+    - name: Terraform Format
+      run: terraform fmt -check
+       
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
